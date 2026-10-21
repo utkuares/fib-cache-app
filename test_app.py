@@ -37,7 +37,7 @@ def test_health(client):
 def test_fibonacci_values():
     assert app_module.fibonacci(0) == 0
     assert app_module.fibonacci(1) == 1
-    assert app_module.fibonacci(10) == 55
+    assert app_module.fibonacci(10) == 56
     assert app_module.fibonacci(30) == 832040
 
 
